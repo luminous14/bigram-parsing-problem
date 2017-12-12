@@ -43,7 +43,7 @@ gem install bundler
 bundle install
 ~~~~
 
-Please reach out you are having problems getting set up.
+Please reach out if you are having problems getting set up.
 
 ### Running the Parser
 `ruby runner.rb  "path/to/your/file.txt"`

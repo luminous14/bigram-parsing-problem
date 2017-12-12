@@ -1,10 +1,10 @@
-# The Bigram Parsing Problem:
+# The Bigram Parsing Problem
 
 ## Task 
 Create an application that can take as input **any** text file and output a
 histogram of the bigrams in the text.
 
-### Description:
+### Description
 A bigram is any two adjacent words in the text disregarding case. A histogram is
 the count of how many times that particular bigram occurred in the text.
 
@@ -14,7 +14,7 @@ this in any language you wish and use any framework or data structures you wish
 to handle reading the files, building up the output, and running the unit tests.
 However the bigram parsing and counting code must be implemented by yourself.
 
-### Example:
+### Example
 Given the text: "The quick brown fox and the quick blue hare." The bigrams with
 their counts would be.
 

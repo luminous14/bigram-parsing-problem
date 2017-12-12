@@ -5,7 +5,6 @@ Create an application that can take as input **any** text file and output a
 histogram of the bigrams in the text.
 
 ### Description:
-
 A bigram is any two adjacent words in the text disregarding case. A histogram is
 the count of how many times that particular bigram occurred in the text.
 
@@ -16,7 +15,6 @@ to handle reading the files, building up the output, and running the unit tests.
 However the bigram parsing and counting code must be implemented by yourself.
 
 ### Example:
-
 Given the text: "The quick brown fox and the quick blue hare." The bigrams with
 their counts would be.
 
@@ -30,9 +28,23 @@ their counts would be.
 
 
 ## Solution
+I solved this using ruby version 2.2.1p85 and [minitest](https://github.com/seattlerb/minitest).
 
-This guide is designed for beginners who want to get started with a Railsapplication from scratch. It does not assume that you have any prior experience with Rails. However, to get the most out of it, you need to have some prerequisites installed:
+### Setup
+Requirements for running the test include having [Ruby](https://www.ruby-lang.org/en/downloads/) installed and The [RubyGems](https://rubygems.org/)
+packaging system, which is installed with Ruby by default. To learn more about
+RubyGems, please read the [RubyGems Guides](http://guides.rubygems.org/).
 
-The Ruby language version 2.2.2 or newer.
-Right version of Development Kit, if you are using Windows.
-The RubyGems packaging system, which is installed with Ruby by default. To learn more about RubyGems, please read the RubyGems Guides.
+~~~~
+clone https://github.com/luminous14/bigram-parsing-problem.git
+cd bigram-parsing-problem
+gem install bundler
+bundle install
+~~~~
+
+Please reach out you are having problems getting set up.
+
+### Running the Parser
+`ruby runner.rb  "path/to/your/file.txt"`
+### Running the Tests
+`ruby test/bigram_parser_test.rb`

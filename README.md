@@ -35,6 +35,7 @@ Requirements for running the test include having [Ruby](https://www.ruby-lang.or
 packaging system, which is installed with Ruby by default. To learn more about
 RubyGems, please read the [RubyGems Guides](http://guides.rubygems.org/).
 
+After installing Ruby:
 ~~~~
 clone https://github.com/luminous14/bigram-parsing-problem.git
 cd bigram-parsing-problem
